@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Reality Check</title>
+</head>
+<body>
+Please check in using the form below:
+<form action="ControllerServlet" method="post">
+	<input type="hidden" name="userid" value="312089">
+	How are you feeling? 
+	<br />
+	Bad<input type="range" name="feeling" min="0" max="10">Good 
+	<br />
+	Where are you now?
+	<br />
+	<input type="radio" name="location" value="home">Home <br />
+	<input type="radio" name="location" value="work">Work <br />
+	<input type="radio" name="location" value="school">School <br />
+	<input type="radio" name="location" value="other--chores">Other--Chores <br />
+	<input type="radio" name="location" value="other--fun">Other--Fun <br />
+	Is this by choice?
+	<br />
+	<input type="radio" name="loc_choice" value="yes">Yes <br />
+	<input type="radio" name="loc_choice" value="no">No <br />	
+	Are you alone?
+	<br />
+	<input type="radio" name="alone" value="yes">Yes <br />
+	<input type="radio" name="alone" value="no">No <br />
+	Is this by choice?
+	<br />
+	<input type="radio" name="alone_choice" value="yes">Yes <br />
+	<input type="radio" name="alone_choice" value="no">No <br />
+	Would it help to hear from someone in your support network today?
+	<br />
+	<input type="radio" name="support" value="yes">Yes <br />
+	<input type="radio" name="support" value="no">No <br />	
+	Please enter any additional comments below:	
+	<br />
+	<input type="text" name="comments" size="100">
+	<br>
+	<input type="submit" value="Submit">
+</form> 
+
+</body>
+</html>
