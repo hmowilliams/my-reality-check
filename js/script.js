@@ -1,3 +1,2 @@
-var name = prompt("What is your name?);
-alert("Hello" + name);
-                  
+var name = prompt("What is your name?");
+alert("Hello, " + name);
