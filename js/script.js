@@ -1,1 +1,3 @@
-alert("This is an alert box");
+var name = prompt("What is your name?);
+alert("Hello" + name);
+                  
