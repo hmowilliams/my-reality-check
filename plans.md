@@ -1,4 +1,4 @@
-#Plans for the Site
+# Plans for the Site
 **HTML**
 - create home page
 - create check-in form
@@ -11,5 +11,5 @@
 
 
 
-#Plans for the App
+# Plans for the App
 **Coming Soon!**
