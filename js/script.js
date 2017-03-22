@@ -26,7 +26,7 @@ switch (journalLength) {
     break;
   case (journalLength < 400):
     break;
-  case (journalLength < 500);
+  case (journalLength < 500):
     break;
   case (journalLength < 600):
     break;
@@ -36,7 +36,7 @@ switch (journalLength) {
     break;
   case (journalLength < 900):
     break;
-  case (journalLength < 1000);
+  case (journalLength < 1000):
     break;
 }
 
