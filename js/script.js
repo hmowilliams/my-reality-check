@@ -40,6 +40,6 @@ switch (journalLength) {
     break;
 }
 
-var headline = document.getElementById("h1");
+var headline = document.getElementById("title");
 
 headline.innerHTML = "Wow, a new headline!";
