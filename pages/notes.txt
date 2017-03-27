@@ -1,2 +1,4 @@
 Landing Page
 - make similar to fitbit.com's landing page
+- choose Google Fonts
+
